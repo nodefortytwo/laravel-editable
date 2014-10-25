@@ -1,0 +1,25 @@
+{
+    "name": "nodefortytwo/editable",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rick Burgess",
+            "email": "nodefortytwo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "doctrine/dbal" : "~2.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Nodefortytwo\\Editable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
